@@ -329,7 +329,7 @@ readFileAsMaybeTrimmedString inputFile = do
   if fileExists
     then do
       fileContent <- readFileAsTrimmedString inputFile
-      return $ Just fileContent
+      return $ Just $ trimNewLines fileContent
     else return $ Nothing
 
 readFileToMaybeStringList :: String -> IO (Maybe [String])
