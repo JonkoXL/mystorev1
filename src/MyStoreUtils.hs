@@ -322,13 +322,14 @@ readFileAsTrimmedString inputFile =  do
   content <- readFileAsString inputFile
   return $ read $ trimNewLines $ show content 
 
+
 readFileAsMaybeTrimmedString :: String -> IO (Maybe String)
 readFileAsMaybeTrimmedString inputFile = do
   fileExists <- isFile inputFile
   if fileExists
     then do
-      fileContent <- readFileAsTrimmedString inputFile
-      return $ Just fileContent
+      fileContent <- readFile inputFile
+      return $ Just $ trimNewLines fileContent
     else return $ Nothing
 
 readFileToMaybeStringList :: String -> IO (Maybe [String])
