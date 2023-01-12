@@ -24,11 +24,11 @@ Summary of code files:
 
 /src/FDatabaseUtils.hs -> Utility functions for FDatabase
 
-/src/MyStoreConstants -> Constants for display text in Store Application menus
+/src/MyStoreConstants.hs -> Constants for display text in Store Application menus
 
-/src/MyStoreData -> Data types for Store Application
+/src/MyStoreData.hs -> Data types for Store Application
 
-/src/MyStoreLogic -> (Backend) functions for the Store Application
+/src/MyStoreLogic.hs -> (Backend) functions for the Store Application
 
 /src/MyStoreUtils.hs -> Utility functions for the  MyStore Application
 
