@@ -18,7 +18,7 @@ Summary of code files:
 
 /app/Main.hs -> Main entry for programming containing all menus
 
-/src/FDatabaseConstants.hs -> Constants resourcestrings
+/src/FDatabaseConstants.hs -> Constants / resourcestrings
 
 /src/FDatabaseData.hs -> Data Types for node database & functions for query logic + object creation 
 
