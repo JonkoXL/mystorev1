@@ -16,7 +16,7 @@ Please note that all rights are reserved and this project is not to be redistrub
 Summary of code files:
 
 
-/app/MyStore.hs -> Main entry for programming containing all menus
+/app/MyStore.hs -> Main entry for program, contains all IO Menus
 
 /src/FDatabaseConstants.hs -> Constants / resourcestrings for FDatabase
 
