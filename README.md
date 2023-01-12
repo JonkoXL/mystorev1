@@ -18,18 +18,18 @@ Summary of code files:
 
 /app/Main.hs -> Main entry for programming containing all menus
 
-/src/FDatabaseConstants.hs -> Constants / resourcestrings
+/src/FDatabaseConstants.hs -> Constants / resourcestrings for FDatabase
 
 /src/FDatabaseData.hs -> Data Types for node database & functions for query logic + object creation 
 
-/src/FDatabaseUtils.hs -> Utility functions
+/src/FDatabaseUtils.hs -> Utility functions for FDatabase
 
-/src/MyStoreConstants -> Constants for display text in application menu
+/src/MyStoreConstants -> Constants for display text in Store Application menus
 
 /src/MyStoreData -> Data types for Store Application
 
 /src/MyStoreLogic -> (Backend) functions for the Store Application
 
-/src/MyStoreUtils.hs -> Utility functions
+/src/MyStoreUtils.hs -> Utility functions for the  MyStore Application
 
 
